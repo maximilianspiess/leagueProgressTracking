@@ -1,0 +1,45 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# JetBrains IDEs
+.idea/
+
+# Visual Studio Code
+.vscode/
+.settings/
+
+# Logs
+logs
+*.log
+
+# Dependency directories
+jspm_packages/
+typings/
+
+# Build files
+dist/
+build/
+
+# Compiled output
+*.out
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+#environment variables
+.env
+
+#json config files
+config.json
+
+#typsecript config files
+tsconfig.json
+
+#node modules
+node_modules

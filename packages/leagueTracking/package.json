@@ -1,0 +1,21 @@
+{
+  "name": "leaguetracking",
+  "version": "1.0.0",
+  "description": "Front-end application that implements a Discord Bot. It allows users to query data for any League of Legends player, limited to the available commands.",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "register": "tsc && node dist/scripts/deploy-commands.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/src/index.js"
+  },
+  "keywords": [],
+  "author": "maximilianspiess <maximilian@spiessh.ch>",
+  "license": "GPL",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1",
+    "typescript": "^5.2.2"
+  },
+  "repository": "https://github.com/maximilianspiess/leagueProgressTracking.git",
+  "private": true
+}
