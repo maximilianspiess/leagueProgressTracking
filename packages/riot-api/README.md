@@ -1,7 +1,10 @@
 # How to use the riot-api
 
-- create a .env file
-- save your Riot Token as RIOT_TOKEN in that .env file (other names won't work)
+- create a .env file at the root level
+- save your Riot Token as RIOT_TOKEN in that .env file (other names won't work) like so:
+```
+RIOT_TOKEN=[yourRiotTokenHere]
+```
 - write the summoner name you want to search in the `getSummonerIdByName` function inside [`src/index.ts`](src/index.ts)
 file
 - you can add the additional parameters `index` and/or `count` to the function if you want
