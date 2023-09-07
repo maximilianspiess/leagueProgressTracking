@@ -1,0 +1,9 @@
+{
+  "name": "riot-api",
+  "version": "1.0.0",
+  "description": "An API Library that handles communication to the Riot API. It mainly covers requests about summoners and their match history.",
+  "main": "dist/src/index.js",
+  "author": "maximilianspiess <maximilian@spiessh.ch>",
+  "license": "GPL",
+  "private": false
+}
